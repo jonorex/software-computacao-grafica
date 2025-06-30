@@ -257,7 +257,7 @@ def main():
                     # Verifica se o CTRL está sendo segurado
                     mods = pygame.key.get_mods()
                     if mods & pygame.KMOD_CTRL:
-                        
+                        print("salvando")
                         interface.on_save()
 
         interface.draw_interface(mouse_pos, posicoes_polygon)

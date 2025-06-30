@@ -441,6 +441,8 @@ class Interface():
                 return
             self.file_path = path
             self.mesh.export_obj(self.file_path)  # ou o método que você usa para exportar
+        else:
+            self.mesh.export_obj(self.file_path)
            
 
 
